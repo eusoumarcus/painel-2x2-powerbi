@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<meta http-equiv="refresh" content="90">-->
+    <title>Painel diretoria</title>
+</head>
+<body>
+    <style>
+body {
+    margin: 0;
+}
+iframe {
+    display: block;
+    background: #dedede;
+    border: none;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+.btnflutuante{
+    position: absolute;
+    padding: 5px;
+}
+
+.imgfull{
+    width: 25px; 
+    height: 25px;
+}
+.imgfull:hover{
+    width: 35px; 
+    height: 35px;
+}
+    </style>
+
+<div class="btnflutuante">
+    <a href="./index.html"><img class="imgfull" src="./images/back.png"></a>
+</div>
+
+<iframe src="https://app.powerbi.com/reportEmbed?reportId=d22544b7-15f0-4ba4-bb15-7f84c0e5fe2a&autoAuth=true&ctid=9d4be155-d1dc-4575-a3a7-80d9d46f6ff4&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLWJyYXppbC1zb3V0aC1iLXByaW1hcnktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQvIn0%3D" frameborder="0" allowFullScreen="true"></iframe>
+
+<script>
+setInterval(function() {
+    window.location.reload();
+  }, 20000);
+</script>
+
+</body>
+</html>
